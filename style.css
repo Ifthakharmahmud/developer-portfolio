@@ -29,6 +29,7 @@ h1{
     display:flex;
     background-image: url('/assets/img/top-banner.png');
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 .halfWidth h1 span{
     color: #ffa500;
@@ -48,9 +49,24 @@ h1{
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 5px;
-    display:block;
-    width:60px;
-    text-align: center;
+    
 }
 
 /* Header Section CSS Ends */
+
+
+/* Dream Big Section CSS Ends */
+.dreamBig{
+    padding-top:20px;
+    overflow: hidden;
+    display:flex;
+    background-image: url(assets/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.dreamBig .halfWidth p{
+    width:80%
+}
+/* Dream Big Section CSS Ends */
