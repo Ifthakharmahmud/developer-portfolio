@@ -1,0 +1,56 @@
+/*==========
+
+Project Name: Developer Portfolio
+Author: Iftekhar Mahmud
+Author URL:#
+License: GPL-2.0-or-later
+Tags: bla, bla, bla, bla
+Description:It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+
+============*/
+
+/* General CSS Starts */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size:50px;
+}
+
+/* Geneeral CSS Ends */
+
+/* Header Section CSS Starts */
+.headerSection{
+    padding-top:20px;
+    overflow: hidden;
+    display:flex;
+    background-image: url('/assets/img/top-banner.png');
+    background-repeat: no-repeat;
+}
+.halfWidth h1 span{
+    color: #ffa500;
+}
+.halfWidth{
+    width: 50%;
+    padding-left: 6%;
+}
+.halfWidth img{
+    width: 90%;
+}
+
+.linkButton{
+    text-decoration: none;
+    background:linear-gradient(to right, #FF9773,#FF6A4D);
+    color: #fff;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display:block;
+    width:60px;
+    text-align: center;
+}
+
+/* Header Section CSS Ends */
