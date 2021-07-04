@@ -70,3 +70,52 @@ h1{
     width:80%
 }
 /* Dream Big Section CSS Ends */
+
+
+/* Exprience Section CSS Ends */
+.exprienceArea{
+    margin-top:20px;
+    background-image: url(assets/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exprienceArea h1{
+    text-align:center;
+    margin-bottom: 50px;
+}
+.exprienceContainer{
+    display:flex;
+    text-align: center;
+}
+
+.exprienceContainer h3{
+    color: #ffa500;
+}
+
+.exprienceContainer .halfWidth{
+    padding: 20px;
+    box-shadow: 0 0 30px #333;
+    width: 45%;
+    margin-left: 20px;
+    height: 400px;
+    margin: 0 auto;
+    border-left: 10px solid orange;
+    border-radius: 2px;
+}
+
+.exprienceContainer .halfWidth:last-child{
+    border-left: 10px solid blue;
+}
+
+/* Exprience Section CSS Ends */
+
+
+/* Footer Section CSS Starts */
+footer{
+    margin: 50px;
+    text-align: center;
+    padding:50px 0;
+    font-weight: 400;
+}
+/* Footer Section CSS Ends */
