@@ -105,7 +105,12 @@ h1{
 }
 
 .exprienceContainer .halfWidth:last-child{
-    border-left: 10px solid blue;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
 
 /* Exprience Section CSS Ends */
